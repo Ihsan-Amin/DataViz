@@ -1,0 +1,67 @@
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Canada Viz
+        </title>
+        <style>
+            body{
+                font-family: Arial, sans-serif;
+                margin: 40px;
+            }
+            h1, h2{
+                text-decoration: underline;
+                text-align: center;
+            }
+            .viz{
+                margin: 40px auto;
+                text-align: center;
+            }
+            iframe{
+                width: 900px;
+                height: 600px;
+                border: none;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>
+            Interacting with Data 7 - Canada
+        </h1>
+
+        <div class="viz">
+            <h2>
+                Part 1: Proportion of Canadians who identify as Indigenous
+            </h2>
+            <iframe src="donut.html"
+                    title="Donut chart of Indigenous populations in Canada">
+            </iframe>
+        </div>
+
+        <div class="viz">
+            <h2>
+                Part 2: Where are Indigenous populations in Canada?
+            </h2>
+            <iframe src="map.html"
+                    title="Choropleth map of Indigenous populations in Canada">
+            </iframe>
+        </div>
+
+        <div class="viz">
+            <h2>
+                Part 3: Mental health and food insecurity
+            </h2>
+            <iframe src="scatter.html"
+                    title="Scatterplot displaying correlation between mental health and food insecurity in Indigenous populations in Canada"">
+            </iframe>
+        </div>
+
+        <p style="text-align:center; margin-top:60px;">
+            <a href="donut.html">Donut chart only</a>
+            &nbsp;&nbsp;
+            <a href="map.html">Map only</a>
+            &nbsp;&nbsp;
+            <a href="scatter.html">Scatterplot only</a>
+        </p>
+    </body>
+</html>
